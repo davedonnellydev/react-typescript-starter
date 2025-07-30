@@ -1,0 +1,78 @@
+.app {
+  min-height: 100vh;
+  background-color: #f9fafb;
+}
+
+.main {
+  max-width: 80rem;
+  margin: 0 auto;
+  padding: 2rem 1rem;
+}
+
+@media (min-width: 640px) {
+  .main {
+    padding: 2rem 1.5rem;
+  }
+}
+
+@media (min-width: 1024px) {
+  .main {
+    padding: 2rem;
+  }
+}
+
+.grid {
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: 1.5rem;
+}
+
+@media (min-width: 768px) {
+  .grid {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+
+.spaceY4 > * + * {
+  margin-top: 1rem;
+}
+
+.spaceY2 > * + * {
+  margin-top: 0.5rem;
+}
+
+.flex {
+  display: flex;
+}
+
+.spaceX2 > * + * {
+  margin-left: 0.5rem;
+}
+
+.errorContainer {
+  padding: 0.75rem;
+  background-color: #fef2f2;
+  border: 1px solid #fecaca;
+  border-radius: 0.375rem;
+}
+
+.errorText {
+  color: #dc2626;
+  font-size: 0.875rem;
+}
+
+.successContainer {
+  padding: 0.75rem;
+  background-color: #f0fdf4;
+  border: 1px solid #bbf7d0;
+  border-radius: 0.375rem;
+}
+
+.successText {
+  color: #166534;
+  font-size: 0.875rem;
+}
+
+.textSm {
+  font-size: 0.875rem;
+}
