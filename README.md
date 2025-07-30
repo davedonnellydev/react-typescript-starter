@@ -1,4 +1,4 @@
-# Project [00] #AIAppAugust: [Project name]
+# Project [00] #AIAugustAppADay: [Project name]
 
 ![Last Commit](https://img.shields.io/github/last-commit/davedonnellydev/react-typescript-starter)  
 
@@ -22,7 +22,7 @@
 *Any final thoughts here*  
 
 
-This project has been built as part of my AI App August Challenge. You can read more information on the full project here: [https://github.com/davedonnellydev/ai-august-2025-challenge](https://github.com/davedonnellydev/ai-august-2025-challenge).  
+This project has been built as part of my AI August App-A-Day Challenge. You can read more information on the full project here: [https://github.com/davedonnellydev/ai-august-2025-challenge](https://github.com/davedonnellydev/ai-august-2025-challenge).  
 
 ## 🧪 Testing
 
